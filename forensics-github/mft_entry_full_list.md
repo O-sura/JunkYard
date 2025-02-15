@@ -1,5 +1,3 @@
-┌──(kali㉿kali)-[~/Desktop/Forensics/Assignment/ntfs]
-└─$ analyze_all_mft_entries                   
 Processing: mft-entry-0.dd
 Allocation Status: 0x0001 (File, Allocated)
 Logical File Size: 0x00000198 (408 bytes)
