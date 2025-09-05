@@ -260,35 +260,35 @@ wso2:
             # -- Primary keystore enabled
             enabled: true
             # -- Primary keystore name
-            name: "newkeystore.jks"
+            name: "testkeystore.jks"
             # -- Primary keystore alias
-            alias: "newcert"
+            alias: "testcert"
             # -- Primary keystore password
-            password: "newcertpassword"
+            password: "testpassword"
             # -- Primary keystore key password
-            keyPassword: "newcertpassword"
+            keyPassword: "testpassword"
           tls:
             # -- TLS keystore enabled
             enabled: true
             # -- TLS keystore name
-            name: "newkeystore.jks"
+            name: "testkeystore.jks"
             # -- TLS keystore alias
-            alias: "newcert"
+            alias: "testcert"
             # -- TLS keystore password
-            password: "newcertpassword"
+            password: "testpassword"
             # -- TLS keystore key password
-            keyPassword: "newcertpassword"
+            keyPassword: "testpassword"
           internal:
             # -- Internal keystore enabled
             enabled: true
             # -- Internal keystore name
-            name: "newkeystore.jks"
+            name: "testkeystore.jks"
             # -- Internal keystore alias
-            alias: "newcert"
+            alias: "testcert"
             # -- Internal keystore password
-            password: "newcertpassword"
+            password: "testpassword"
             # -- Internal keystore key password
-            keyPassword: "newcertpassword"
+            keyPassword: "testpassword"
         truststore:
           # -- Truststore name
           name: "client-truststore.jks"
@@ -368,7 +368,7 @@ wso2:
         enableTokenHashing: false
         # -- List of allow-listed scopes
         allowedScopes: ["^device_.*,openid"]
-        oauth2JWKSUrl: "https://apim-wso2am-acp-1-service.default.svc.cluster.local:9443/oauth2/jwks"
+        oauth2JWKSUrl: "https://apim-wso2am-acp-1-service.apk.svc.cluster.local:9443/oauth2/jwks"
       
       # APIM Open Tracing configurations
       # https://apim.docs.wso2.com/en/latest/observe/api-manager/traces/monitoring-with-opentracing/
@@ -414,7 +414,7 @@ wso2:
       # -- Azure ACR repository name consisting the image
       repository: "osurav/apim-acp:4.6.0-alpha-multi"
       # -- Docker image digest
-      digest: "sha256:e2d1b95ab939d75cbb3987cf1aceb7daa0dd1f20bf0e5b0090e14852e36f778a"
+      digest: "sha256:c2fb118d9f915cee6b3035119ad697d30069c26b96fd4dcdb136534d2032f8e6"
       # -- Refer to the Kubernetes documentation on updating images (https://kubernetes.io/docs/concepts/containers/images/#updating-images)
       imagePullPolicy: Always
 
