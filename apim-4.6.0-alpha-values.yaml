@@ -264,9 +264,9 @@ wso2:
             # -- Primary keystore alias
             alias: "testcert"
             # -- Primary keystore password
-            password: "testpassword"
+            password: "testcertpassword"
             # -- Primary keystore key password
-            keyPassword: "testpassword"
+            keyPassword: "testcertpassword"
           tls:
             # -- TLS keystore enabled
             enabled: true
@@ -275,9 +275,9 @@ wso2:
             # -- TLS keystore alias
             alias: "testcert"
             # -- TLS keystore password
-            password: "testpassword"
+            password: "testcertpassword"
             # -- TLS keystore key password
-            keyPassword: "testpassword"
+            keyPassword: "testcertpassword"
           internal:
             # -- Internal keystore enabled
             enabled: true
@@ -286,9 +286,9 @@ wso2:
             # -- Internal keystore alias
             alias: "testcert"
             # -- Internal keystore password
-            password: "testpassword"
+            password: "testcertpassword"
             # -- Internal keystore key password
-            keyPassword: "testpassword"
+            keyPassword: "testcertpassword"
         truststore:
           # -- Truststore name
           name: "client-truststore.jks"
@@ -414,7 +414,7 @@ wso2:
       # -- Azure ACR repository name consisting the image
       repository: "osurav/apim-acp:4.6.0-alpha-multi"
       # -- Docker image digest
-      digest: "sha256:c2fb118d9f915cee6b3035119ad697d30069c26b96fd4dcdb136534d2032f8e6"
+      digest: "sha256:5eaac2113d4736db4eec6079e3c710c26d2fe859fe746f7b1779f9c6bdb59b17"
       # -- Refer to the Kubernetes documentation on updating images (https://kubernetes.io/docs/concepts/containers/images/#updating-images)
       imagePullPolicy: Always
 
