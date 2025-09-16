@@ -415,9 +415,9 @@ wso2:
       # -- Azure ACR repository name consisting the image
       repository: "osurav/apim-acp:4.6.0-alpha2"
       # -- Docker image digest
-      digest: "sha256:c743ca814bc32a0b869696a004a496479cc4bc87fa21c9c3e111b93fd993df8a"
+      digest: "sha256:6acfbfafd80ca2eb5787850679565914172c0b4ba654c266beb0ccfda09c8adf"
       # -- Refer to the Kubernetes documentation on updating images (https://kubernetes.io/docs/concepts/containers/images/#updating-images)
-      imagePullPolicy: IfNotPresent
+      imagePullPolicy: Always
 
     resources:
       # These are the resource recommendations for running WSO2 API Management product profiles with profile optimization
