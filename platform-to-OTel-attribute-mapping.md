@@ -344,7 +344,7 @@ Stability status — [state of the GenAI semconv, July 2026](https://john-hodge.
 
 Precedent for a custom cost attribute — [Kong AI OTLP metrics reference](https://developer.konghq.com/ai-gateway/ai-otel-metrics/)
 
-In-repo — `internal/analytics/dto/*.go` · `internal/analytics/analytics.go` ·
+In `wso2/api-platform` repo — `internal/analytics/dto/*.go` · `internal/analytics/analytics.go` ·
 `internal/analytics/publishers/moesif.go` · `internal/analytics/publishers/otel.go` ·
 `internal/constants/constants.go` · `system-policies/analytics/analytics.go` ·
 `gateway-controller/default-llm-provider-templates/`
